@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/hitentandon/projects/qt/Calculator/build/Desktop-Debug",
+  "command": "/run/current-system/sw/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hitentandon/projects/qt/Calculator/build/Desktop-Debug/Calculator_autogen/include -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtWidgets -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtGui -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtCore -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/./mkspecs/linux-g++ -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC -o CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o -c /home/hitentandon/projects/qt/Calculator/build/Desktop-Debug/Calculator_autogen/mocs_compilation.cpp",
+  "file": "/home/hitentandon/projects/qt/Calculator/build/Desktop-Debug/Calculator_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/hitentandon/projects/qt/Calculator/build/Desktop-Debug",
+  "command": "/run/current-system/sw/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hitentandon/projects/qt/Calculator/build/Desktop-Debug/Calculator_autogen/include -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtWidgets -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtGui -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtCore -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/./mkspecs/linux-g++ -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC -o CMakeFiles/Calculator.dir/main.cpp.o -c /home/hitentandon/projects/qt/Calculator/main.cpp",
+  "file": "/home/hitentandon/projects/qt/Calculator/main.cpp",
+  "output": "CMakeFiles/Calculator.dir/main.cpp.o"
+},
+{
+  "directory": "/home/hitentandon/projects/qt/Calculator/build/Desktop-Debug",
+  "command": "/run/current-system/sw/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/hitentandon/projects/qt/Calculator/build/Desktop-Debug/Calculator_autogen/include -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtWidgets -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtGui -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtCore -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/./mkspecs/linux-g++ -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC -o CMakeFiles/Calculator.dir/mainwindow.cpp.o -c /home/hitentandon/projects/qt/Calculator/mainwindow.cpp",
+  "file": "/home/hitentandon/projects/qt/Calculator/mainwindow.cpp",
+  "output": "CMakeFiles/Calculator.dir/mainwindow.cpp.o"
+}
+]

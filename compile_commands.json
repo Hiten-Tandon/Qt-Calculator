@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/hitentandon/projects/qt/Calculator",
+  "command": "/nix/store/kp2j7yn0wzwq5piy494r54dafrh83s6s-gcc-wrapper-13.3.0/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/hitentandon/projects/qt/Calculator/Calculator_autogen/include -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtWidgets -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtGui -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtCore -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/./mkspecs/linux-g++ -std=gnu++17 -fPIC -o CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o -c /home/hitentandon/projects/qt/Calculator/Calculator_autogen/mocs_compilation.cpp",
+  "file": "/home/hitentandon/projects/qt/Calculator/Calculator_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/hitentandon/projects/qt/Calculator",
+  "command": "/nix/store/kp2j7yn0wzwq5piy494r54dafrh83s6s-gcc-wrapper-13.3.0/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/hitentandon/projects/qt/Calculator/Calculator_autogen/include -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtWidgets -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtGui -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtCore -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/./mkspecs/linux-g++ -std=gnu++17 -fPIC -o CMakeFiles/Calculator.dir/main.cpp.o -c /home/hitentandon/projects/qt/Calculator/main.cpp",
+  "file": "/home/hitentandon/projects/qt/Calculator/main.cpp",
+  "output": "CMakeFiles/Calculator.dir/main.cpp.o"
+},
+{
+  "directory": "/home/hitentandon/projects/qt/Calculator",
+  "command": "/nix/store/kp2j7yn0wzwq5piy494r54dafrh83s6s-gcc-wrapper-13.3.0/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/hitentandon/projects/qt/Calculator/Calculator_autogen/include -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtWidgets -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtGui -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtCore -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/./mkspecs/linux-g++ -std=gnu++17 -fPIC -o CMakeFiles/Calculator.dir/mainwindow.cpp.o -c /home/hitentandon/projects/qt/Calculator/mainwindow.cpp",
+  "file": "/home/hitentandon/projects/qt/Calculator/mainwindow.cpp",
+  "output": "CMakeFiles/Calculator.dir/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/hitentandon/projects/qt/Calculator",
+  "command": "/nix/store/kp2j7yn0wzwq5piy494r54dafrh83s6s-gcc-wrapper-13.3.0/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/hitentandon/projects/qt/Calculator/Calculator_autogen/include -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtWidgets -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtGui -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/include/QtCore -isystem /nix/store/az7f61hgqkwwaq5902r5jljxfk3p9sa5-qtbase-5.15.14-dev/./mkspecs/linux-g++ -std=gnu++17 -fPIC -o CMakeFiles/Calculator.dir/ExpressionAST.cpp.o -c /home/hitentandon/projects/qt/Calculator/ExpressionAST.cpp",
+  "file": "/home/hitentandon/projects/qt/Calculator/ExpressionAST.cpp",
+  "output": "CMakeFiles/Calculator.dir/ExpressionAST.cpp.o"
+}
+]
