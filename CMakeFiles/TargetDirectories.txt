@@ -1,9 +1,0 @@
-/home/hitentandon/projects/qt/Calculator/CMakeFiles/Calculator.dir
-/home/hitentandon/projects/qt/Calculator/CMakeFiles/edit_cache.dir
-/home/hitentandon/projects/qt/Calculator/CMakeFiles/rebuild_cache.dir
-/home/hitentandon/projects/qt/Calculator/CMakeFiles/list_install_components.dir
-/home/hitentandon/projects/qt/Calculator/CMakeFiles/install.dir
-/home/hitentandon/projects/qt/Calculator/CMakeFiles/install/local.dir
-/home/hitentandon/projects/qt/Calculator/CMakeFiles/install/strip.dir
-/home/hitentandon/projects/qt/Calculator/CMakeFiles/Calculator_autogen_timestamp_deps.dir
-/home/hitentandon/projects/qt/Calculator/CMakeFiles/Calculator_autogen.dir
