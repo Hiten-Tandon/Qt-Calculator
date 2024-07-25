@@ -10,7 +10,11 @@ double Value::evaluate() const { return value; }
 std::string Value::to_string() const { return std::to_string(value); }
 
 Node *make_node(std::string rep) {
-  if (std::regex_match(rep, std::regex("\\d*\\.?\\d*"))) {
+  while (rep[0] == '(' && rep.back() == ')') {
+    rep = rep.substr(1, rep.size() - 2);
+  }
+  if (std::regex_match(rep, std::regex("^[+-]?\\d*\\.?\\d*(e[+-]?\\d*)?$"))) {
+    std::cout << rep << '\n';
     return new Value(std::stod(rep));
   } else {
     return new ExpressionAST(rep);
@@ -18,10 +22,6 @@ Node *make_node(std::string rep) {
 }
 
 ExpressionAST::ExpressionAST(std::string expr) {
-  while (expr[0] == '(' && expr.back() == ')') {
-    expr = expr.substr(1, expr.size() - 2);
-  }
-
   for (size_t i = 0; i < expr.size(); ++i) {
     if (expr[i] == '(') {
       uint32_t oc = 1;
@@ -40,8 +40,13 @@ ExpressionAST::ExpressionAST(std::string expr) {
     size_t p = std::string("+-").find(expr[i]);
     if (p != std::string::npos) {
       this->op = expr[i];
-      this->left_operand = make_node(expr.substr(0, i));
-      this->right_operand = make_node(expr.substr(i + 1));
+      if (i == 0) {
+        this->left_operand = make_node("0");
+        this->right_operand = make_node(expr.substr(1));
+      } else {
+        this->left_operand = make_node(expr.substr(0, i));
+        this->right_operand = make_node(expr.substr(i + 1));
+      }
       return;
     }
   }
