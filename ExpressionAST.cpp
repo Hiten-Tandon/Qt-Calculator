@@ -27,7 +27,7 @@ ExpressionAST::ExpressionAST(std::string expr) {
       uint32_t oc = 1;
 
       while (oc != 0) {
-        ++i;
+        i++;
         if (expr[i] == '(') {
           ++oc;
         } else if (expr[i] == ')') {
@@ -56,14 +56,14 @@ ExpressionAST::ExpressionAST(std::string expr) {
       uint32_t cc = 1;
 
       while (cc != 0) {
-        ++i;
+        --i;
         if (expr[i] == ')') {
           ++cc;
         } else if (expr[i] == '(') {
           --cc;
         }
       }
-      ++i;
+      --i;
     }
 
     size_t p = std::string("*/%").find(expr[i]);
