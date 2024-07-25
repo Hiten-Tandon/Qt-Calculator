@@ -51,16 +51,16 @@ ExpressionAST::ExpressionAST(std::string expr) {
     }
   }
 
-  for (size_t i = 0; i < expr.size(); ++i) {
-    if (expr[i] == '(') {
-      uint32_t oc = 1;
+  for (size_t i = expr.size() - 1; i < expr.size(); --i) {
+    if (expr[i] == ')') {
+      uint32_t cc = 1;
 
-      while (oc != 0) {
+      while (cc != 0) {
         ++i;
-        if (expr[i] == '(') {
-          ++oc;
-        } else if (expr[i] == ')') {
-          --oc;
+        if (expr[i] == ')') {
+          ++cc;
+        } else if (expr[i] == '(') {
+          --cc;
         }
       }
       ++i;
