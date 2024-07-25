@@ -76,3 +76,4 @@ CMakeCache.txt
 CMakeFiles
 Calculator_autogen
 \.cache
+build/*
