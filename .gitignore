@@ -75,4 +75,4 @@ CMakeLists.txt.user*
 CMakeCache.txt
 CMakeFiles
 Calculator_autogen
-.cache
+\.cache
