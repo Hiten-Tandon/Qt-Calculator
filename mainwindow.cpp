@@ -1,6 +1,6 @@
 #include "mainwindow.h"
-#include "./ui_mainwindow.h"
 #include "ExpressionAST.hpp"
+#include "ui_mainwindow.h"
 #include <iostream>
 #include <regex>
 

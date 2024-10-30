@@ -79,3 +79,5 @@ Calculator_autogen
 build/*
 
 Calculator
+cmake_install.cmake
+compile_commands.json
