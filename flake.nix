@@ -4,13 +4,13 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = {nixpkgs, flake-utils, ...}: 
-    flake-utils.lib.eachDefaultSystem(system: 
+  outputs = { nixpkgs, flake-utils, ... }:
+    flake-utils.lib.eachDefaultSystem (system:
       let pkgs = nixpkgs.legacyPackages.${system};
-      in
-      {
+      in {
         devShells.default = pkgs.mkShell {
-          nativeBuildInputs = [pkgs.qt5Full pkgs.libsForQt5.full pkgs.qtcreator];
+          nativeBuildInputs =
+            [ pkgs.qt5Full pkgs.libsForQt5.full pkgs.qtcreator ];
         };
 
         formatter = pkgs.nixfmt-classic;
