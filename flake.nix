@@ -13,6 +13,31 @@
             [ pkgs.qt5Full pkgs.libsForQt5.full pkgs.qtcreator ];
         };
 
+        packages.default = with pkgs; stdenv.mkDerivation (finalAttrs: {
+          pname = "Calculator";
+          name = "Qt-Calculator";
+          version = "1.0.0";
+
+          src = ./.;
+
+          nativeBuildInputs = [
+            cmake
+            gnumake
+            pkg-config
+            autoPatchelfHook
+          ];
+          buildInputs = [
+            qt5Full
+            libsForQt5.full
+            libsForQt5.qt5.wrapQtAppsHook
+          ];
+
+          meta = {
+            description = "A Calculator";
+            license = lib.licenses.mit;
+          };
+        });
+
         formatter = pkgs.nixfmt-classic;
       });
 }
