@@ -34,7 +34,7 @@
 
           meta = {
             description = "A Calculator";
-            license = lib.licenses.mit;
+            license = [ lib.licenses.unlicense lib.license.isc lib.license.bsd0 lib.license.wtfpl lib.licenses.mit];
           };
         });
 
